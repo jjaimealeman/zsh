@@ -7,7 +7,10 @@ _comp_options+=(globdots) # With hidden files
 # If you type <command> and hit the tab key, you’ll see that Zsh will complete the command.
 # If you type <command - > and hit the tab key, Zsh will display the possible arguments for the command.
 source "$ZDOTDIR/scripts/completion.zsh"
-
+# ADD MY OWN CUSTOM PROMPT
+# To use this, I commented out starship in .zshenv
+fpath=($ZDOTDIR/scripts $fpath)
+autoload -Uz myprompt; myprompt
 
 # https://www.soberkoder.com/better-zsh-history/
 # 1. Immediate append Setting the inc_append_history option ensures that commands are added to the 
