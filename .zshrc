@@ -12,6 +12,10 @@ source "$ZDOTDIR/scripts/completion.zsh"
 fpath=($ZDOTDIR/scripts $fpath)
 autoload -Uz myprompt; myprompt
 
+# ADD v MODE
+bindkey -v
+export KEYTIMEOUT=1
+
 # https://www.soberkoder.com/better-zsh-history/
 # 1. Immediate append Setting the inc_append_history option ensures that commands are added to the 
 # history immediately (otherwise, this would happen only when the shell exits, and you could lose 
