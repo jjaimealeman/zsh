@@ -1,11 +1,13 @@
 # The following lines were added by compinstall
 
 
+
 autoload -U compinit; compinit
 _comp_options+=(globdots) # With hidden files
 # If you type <command> and hit the tab key, you’ll see that Zsh will complete the command.
 # If you type <command - > and hit the tab key, Zsh will display the possible arguments for the command.
 source "$ZDOTDIR/scripts/completion.zsh"
+
 
 # https://www.soberkoder.com/better-zsh-history/
 # 1. Immediate append Setting the inc_append_history option ensures that commands are added to the 
@@ -45,9 +47,9 @@ source "$ZDOTDIR/scripts/completion.zsh"
 # alias .....='cd ../../../..'
 # alias ......='cd ../../../../..'
 
-alias fy='fzfyay'
-alias fv='vim $(fz)'
-alias fz='rg --files --hidden --follow --ignore-vcs -g "!{node_modules,.git}" | fzf'
+# alias fy='fzfyay'
+# alias fv='vim $(fz)'
+# alias fz='rg --files --hidden --follow --ignore-vcs -g "!{node_modules,.git}" | fzf'
 # alias fy='yay -Slq | fzf -m --preview 'cat <(yay -Si {1}) <(yay -Fl {1} | awk "{print \$2}")' | xargs -ro  yay -S'
 # fzfyay () {
 #   yay -Slq | fzf -m --preview 'bat <(yay -Si {1}) <(yay -Fl {1} | awk "{print \$2}")' | xargs -ro  yay -S
