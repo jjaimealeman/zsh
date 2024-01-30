@@ -4,10 +4,10 @@
 # 1. Immediate append Setting the inc_append_history option ensures that commands are added to the 
 # history immediately (otherwise, this would happen only when the shell exits, and you could lose 
 # history upon unexpected/unclean termination of the shell).
-setopt INC_APPEND_HISTORY
-setopt EXTENDED_HISTORY
-setopt HIST_FIND_NO_DUPS
-setopt HIST_IGNORE_ALL_DUPS
+# setopt INC_APPEND_HISTORY
+# setopt EXTENDED_HISTORY
+# setopt HIST_FIND_NO_DUPS
+# setopt HIST_IGNORE_ALL_DUPS
 
 alias r='ranger'
 
@@ -46,11 +46,11 @@ alias fz='rg --files --hidden --follow --ignore-vcs -g "!{node_modules,.git}" | 
 #   yay -Slq | fzf -m --preview 'bat <(yay -Si {1}) <(yay -Fl {1} | awk "{print \$2}")' | xargs -ro  yay -S
 # }
 
-HISTFILE=~/zsh-history
-HISTSIZE=10000
-SAVEHIST=10000
-HISTTIMEFORMAT="[%F %T] "
-alias hist='history -E'
+# HISTFILE=~/zsh-history
+# HISTSIZE=10000
+# SAVEHIST=10000
+# HISTTIMEFORMAT="[%F %T] "
+# alias hist='history -E'
 
 eval "$(starship init zsh)"
 export MANPAGER='nvim +Man!'
