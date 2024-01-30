@@ -1,0 +1,916 @@
+: 1705942655:0;neofetch
+: 1705943665:0;ping -c 10 google.com
+: 1705943743:0;man -k sway
+: 1705943751:0;man sway
+: 1705943794:0;pwd
+: 1705943794:0;ll
+: 1705943809:0;touch readme.md
+: 1705943813:0;vim readme.md
+: 1705944173:0;ranger
+: 1705944271:0;exit
+: 1705945693:0;swaymsg -t get_outputs
+: 1705945721:0;			vim readme.md
+: 1705945838:0;pwd
+: 1705945840:0;ll
+: 1705945843:0;cd Downloads
+: 1705945844:0;ll
+: 1705945846:0;git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+: 1705945858:0;~/.fzf/install
+: 1705945900:0;ranger
+: 1705946099:0;..
+: 1705946112:0;source ~/.zshrc
+: 1705946184:0;sudo pacman -S kitty neovim
+: 1705946487:0;sudo pacman -S kitty
+: 1705946493:0;kitty
+: 1705946496:0;exit
+: 1705946501:0;sudo pacman -S neovim
+: 1705946535:0;nvim
+: 1705946545:0;sudo pacman -Syyu
+: 1705947023:0;sudo pacman -S neovim
+: 1705947041:0;neovim
+: 1705947043:0;nvim
+: 1705947057:0;nvim readme.md
+: 1705947069:0;nvim --version
+: 1705947076:0;vim --version
+: 1705947153:0;man 5 sway-output
+: 1705947214:0;reboot
+: 1705947311:0;lsblk
+: 1705947331:0;mkdir /mnt/usb
+: 1705947337:0;sudo mkdir /mnt/usb
+: 1705947345:0;ll /mnt/usb
+: 1705947371:0;sudo mount /mnt/usb /dev/sdb1
+: 1705947387:0;sudo mount /dev/sdb1 /mnt/usb 
+: 1705947395:0;ranger
+: 1705947700:0;pwd
+: 1705947700:0;ll
+: 1705947764:0;..
+: 1705947766:0;ll
+: 1705947771:0;nvim readme.md
+: 1705947811:0;ranger
+: 1705947840:0;pwd
+: 1705947859:0;nvim .wakatime.cfg
+: 1705948188:0;nvim readme.md
+: 1705948229:0;sudo pacman -S nodejs
+: 1705948264:0;sudo pacman -S nodejs npm yarn pnpm
+: 1705948291:0;node --version
+: 1705948295:0;npm --version
+: 1705948298:0;yarn --version
+: 1705948303:0;pnpm --version
+: 1705948669:0;nvim readme.md
+: 1705948763:0;sudo pacman -S ripgrep
+: 1705949246:0;ll /mnt/usb
+: 1705949262:0;sudo umount /mnt/usb 
+: 1705949268:0;ll /mnt/usb
+: 1705951783:0;.config
+: 1705951785:0;ll
+: 1705951790:0;sway/
+: 1705951852:0;sudo pacman -S gitflow-avh
+: 1705951873:0;yay
+: 1705951887:0;yay -S gitflow-avh
+: 1705951945:0;pacman -S lazygit
+: 1705951950:0;sudo pacman -S lazygit
+: 1705951966:0;git init
+: 1705951992:0;git config --global init.defaultBranch main
+: 1705951997:0;git init
+: 1705952011:0;git branch -m main
+: 1705952015:0;git flow init
+: 1705952044:0;git config --global user.email "jjaimealeman@gmail.com"
+: 1705952055:0;git config --global user.name "Jaime Aleman"
+: 1705952059:0;git flow init
+: 1705952069:0;lazigit
+: 1705952073:0;lazygit
+: 1705952802:0;neofetch
+: 1705952817:0;fastfetch
+: 1705952839:0;sudo pacman -S fastfetch
+: 1705952865:0;fastfetch
+: 1705953645:0;pwd
+: 1705953648:0;ll
+: 1705953652:0;gs
+: 1705953660:0;git status
+: 1705953665:0;lazygit
+: 1705953723:0;nvim readme.md
+: 1705953944:0;which $TERM
+: 1705954376:0;lazygit
+: 1705954403:0;which $TERM
+: 1705954409:0;exit
+: 1705954432:0;lazygit
+: 1705954453:0;which $TERM
+: 1705954461:0;ranger
+: 1705954550:0;nvim
+: 1705954590:0;ranger
+: 1705954627:0;git status
+: 1705954632:0;nvim foot.ini
+: 1705954777:0;lazygit
+: 1705955358:0;waybar --version
+: 1705955529:0;pwd
+: 1705955556:0;nvim readme.md
+: 1705956124:0;sudo pacman -S broot
+: 1705956138:0;broot
+: 1705956165:0;br
+: 1705956221:0;exit
+: 1705956226:0;br
+: 1705956233:0;.config/broot
+: 1705956234:0;ll
+: 1705956238:0;git init
+: 1705956252:0;lazygit
+: 1705956259:0;git add .
+: 1705956267:0;git commit -m"first commit"
+: 1705956270:0;git status
+: 1705956273:0;v
+: 1705956276:0;nvim
+: 1705956735:0;man sway
+: 1705956766:0;man sway-5
+: 1705956959:0;notify-send hello
+: 1705958800:0;sudo pacman -S tlpgui
+: 1705958810:0;yay -Ss tlpgui
+: 1705958816:0;yay -Ss tlp
+: 1705958890:0;yay -Ss tlpui
+: 1705958900:0;yay -S tlpui
+: 1705958960:0;tlpui
+: 1705959096:0;cat /etc/pacman.conf
+: 1705959165:0;v /etc/pacman.conf
+: 1705959173:0;nvim /etc/pacman.conf
+: 1705959208:0;sudo nvim /etc/pacman.conf
+: 1705959242:0;~/.config/yay
+: 1705959244:0;ll
+: 1705959300:0;pwd
+: 1705959302:0;ll
+: 1705959513:0;yay --save
+: 1705959530:0;ll
+: 1705959535:0;bat config.json
+: 1705959537:0;cat config.json
+: 1705959572:0;yay
+: 1705959581:0;sudo pacman -Syyu
+: 1705959860:0;man sway
+: 1705959881:0;~/
+: 1705959882:0;ll
+: 1705959896:0;lsblk
+: 1705959916:0;sudo mount /dev/sdb1 /mnt/usb 
+: 1705959924:0;ranger
+: 1705959955:0;sudo umount /mnt/usb 
+: 1705959963:0;ll /mnt/usb
+: 1705959974:0;lsblk
+: 1705959990:0;sudo mount /dev/sdb1 /mnt/usb 
+: 1705959995:0;ll /mnt/usb
+: 1705959997:0;ranger
+: 1705960077:0;pwd
+: 1705960083:0;nvim .zshrc
+: 1705960234:0;source ~/.zshrc
+: 1705960247:0;exit
+: 1705960461:0;source ~/.zshrc
+: 1705960463:0;ll
+: 1705960468:0;exit
+: 1705960481:0;ll
+: 1705960488:0;source ~/.zshrc
+: 1705960491:0;ll
+: 1705960493:0;lll
+: 1705960523:0;sudo pacman -S exa
+: 1705960533:0;ll
+: 1705960535:0;lll
+: 1705960537:0;ls
+: 1705960538:0;ld
+: 1705960540:0;exit
+: 1705960656:0;sudo pacman -S bat
+: 1705960664:0;fy
+: 1705960718:0;pwd
+: 1705960721:0;~/
+: 1705960734:0;sudo umount /mnt/usb 
+: 1705960766:0;ll /mnt/usb
+: 1705960770:0;sudo umount /mnt/usb 
+: 1705960954:0;pwd
+: 1705960956:0;lsblk
+: 1705960981:0;fuser -m /mnt/usb 
+: 1705961036:0;lsof +D /mnt/usb
+: 1705961047:0;fy
+: 1705961052:0;source .zshrc
+: 1705961054:0;fy
+: 1705961086:0;v readme.md
+: 1705961098:0;lsof +D /mnt/usb
+: 1705961212:0;sudo umount /mnt/usb 
+: 1705961221:0;ll /mnt/usb
+: 1705968186:0;ping -c 10 google.com
+: 1705969009:0;swaymsg -t get_outputs
+: 1705969039:0;man 5 sway-output
+: 1705969485:0;swaybg --version
+: 1705969489:0;man swaybg
+: 1705969528:0;man 5 sway-output
+: 1705970220:0;nwg-shell-help
+: 1705971821:0;weather
+: 1705971929:0;vr
+: 1705971983:0;.config/sway
+: 1705971986:0;gs
+: 1705971997:0;gd
+: 1705972005:0;lg
+: 1705972064:0;gs
+: 1705972203:0;ll
+: 1705972208:0;r
+: 1705972208:0;ll
+: 1705972214:0;r
+: 1705972214:0;ll
+: 1705972217:0;range
+: 1705972219:0;ranger
+: 1705972227:0;pwd
+: 1705972229:0;..
+: 1705972240:0;pwd
+: 1705972244:0;v .zshrc
+: 1705972266:0;source .zshrc
+: 1705972292:0;r
+: 1705972844:0;.config/ranger
+: 1705972845:0;ll
+: 1705972848:0;r
+: 1705972889:0;ll colorschemes
+: 1705973012:0;..
+: 1705973018:0;v .zshrc
+: 1705973286:0;r
+: 1705973306:0;v
+: 1705973456:0;r
+: 1705973638:0;alacritty --class=ranger -e ranger
+: 1705973659:0;pwd
+: 1705973661:0;ll
+: 1705973667:0;lll
+: 1705973670:0;ld
+: 1705973675:0;ls
+: 1705973677:0;exa
+: 1705973837:0;.config/ranger/colorschemes
+: 1705973838:0;ll
+: 1705973869:0;git clone https://github.com/dracula/ranger .
+: 1705973879:0;.
+: 1705973889:0;pwd
+: 1705973891:0;ll
+: 1705973894:0;..
+: 1705973896:0;ll
+: 1705973906:0;git clone https://github.com/dracula/ranger dracula
+: 1705973909:0;r
+: 1705973929:0;v
+: 1705973961:0;r
+: 1705979250:0;reboot
+: 1705979546:0;fastfetch
+: 1705979574:0;.config/sway
+: 1705979591:0;gs
+: 1705979594:0;gd
+: 1705979607:0;lg
+: 1705979622:0;v
+: 1705980440:0;fastfetch
+: 1705980451:0;.config/sway
+: 1705980462:0;v
+: 1705980613:0;.config/kitty
+: 1705980615:0;ll
+: 1705980620:0;v kitty.conf
+: 1705980787:0;..
+: 1705980793:0;sway/
+: 1705980795:0;ll
+: 1705980810:0;v
+: 1705980867:0;.config/sway
+: 1705980871:0;v config
+: 1705981397:0;exit
+: 1705981869:0;echo $
+: 1705981873:0;echo $SHELL
+: 1705981877:0;echo $TERM
+: 1705981983:0;.config/sway
+: 1705981988:0;ll
+: 1705981991:0;gs
+: 1705981997:0;gd
+: 1705982003:0;gl
+: 1705982013:0;gs
+: 1705982017:0;git status
+: 1705982027:0;gl
+: 1705982037:0;vr
+: 1705982120:0;ll
+: 1705982127:0;v .zshrc
+: 1705982246:0;ll
+: 1705982248:0;lll
+: 1705982250:0;ls
+: 1705982251:0;ld
+: 1705982263:0;fv
+: 1705982284:0;fz
+: 1705982328:0;source ~/.zshrc
+: 1705982332:0;gs
+: 1705982336:0;git status
+: 1705982359:0;git status -sb
+: 1705982367:0;gl
+: 1705982388:0;git log --oneline --abbrev-commit --all --graph --decorate --color --pretty=format:'%C(yellow)%h%Creset -%C(red)%d%Creset %s %C(dim green)(%cr)'
+: 1705982578:0;xkill
+: 1705983227:0;scripts/foot 
+: 1705984162:0;gs
+: 1705984167:0;gd
+: 1705984187:0;lg
+: 1705984201:0;v
+: 1705984409:0;whereis nvim
+: 1705985715:0;exit
+: 1705985869:0;gdgfd
+: 1705985929:0;echo $TERM
+: 1705985956:0;exit
+: 1705986021:0;asdads
+: 1705986026:0;asdas
+: 1705986033:0;fastfetch
+: 1705986197:0;.config/sway
+: 1705986200:0;gs
+: 1705986203:0;gd
+: 1705986210:0;v
+: 1705987018:0;killall -SIGUSR2 waybar
+: 1705987761:0;swaymsg reload
+: 1705987770:0;swaymsg restart
+: 1705987992:0;swaymsg reload
+: 1705988146:0;fc-list | grep "Fira"
+: 1705988152:0;fc-list | grep "IBM"
+: 1705988197:0;fc-list | grep "JetBrains"
+: 1705988237:0;swaymsg reload
+: 1706015722:0;fc-list | grep "JetBrains"
+: 1706015726:0;fd
+: 1706015731:0;sudo pacman -S fd
+: 1706015741:0;vr
+: 1706015765:0;v
+: 1706016070:0;gs
+: 1706016073:0;gd
+: 1706016076:0;gl
+: 1706016079:0;lg
+: 1706016087:0;v
+: 1706030405:0;ping -v 10 google.com
+: 1706031154:0;ping -c 10 google.com
+: 1706031171:0;speedtest
+: 1706031180:0;sudo pacman -Ss speedtest
+: 1706031189:0;sudo pacman -S speedtest
+: 1706031192:0;sudo pacman -S speedtest-cli
+: 1706031195:0;vr
+: 1706031210:0;speedtest
+: 1706033449:0;sudo pacman -S obsidian
+: 1706033464:0;vr
+: 1706033473:0;r
+: 1706036175:0;ll
+: 1706036180:0;git clone https://github.com/kepano/kepano-obsidian
+: 1706036382:0;br
+: 1706036394:0;cd '/home/jaimito/Obsidian/kepano-obsidian/Notes'
+: 1706036410:0;cd '/home/jaimito/Obsidian/kepano-obsidian/Categories'
+: 1706036426:0;br
+: 1706036432:0;cd '/home/jaimito/Obsidian/kepano-obsidian/Categories'
+: 1706036450:0;.config/broot
+: 1706036451:0;ll
+: 1706036455:0;v
+: 1706036524:0;v .zshrc
+: 1706036825:0;source .zshrc
+: 1706036834:0;br
+: 1706036839:0;cd '/home/jaimito/Obsidian/kepano-obsidian/Notes'
+: 1706036881:0;br
+: 1706036897:0;cd '/home/jaimito/Obsidian/round-two'
+: 1706036967:0;br
+: 1706036984:0;..
+: 1706036987:0;br
+: 1706037055:0;..
+: 1706037056:0;pwd
+: 1706037058:0;ll
+: 1706037092:0;kepano-obsidian
+: 1706037093:0;ll
+: 1706037098:0;v
+: 1706045242:0;vr
+: 1706045254:0;bat
+: 1706045260:0;bat readme.md
+: 1706045923:0;ffmpeg -hide_banner -encoders | grep -E '^ V' | grep -F '(codec' | cut -c 8- | sort
+: 1706045966:0;sudo pacman -Ss wf-recorder
+: 1706045997:0;sudo pacman -S wf-recorder
+: 1706046065:0;wf-recorder
+: 1706046088:0;ll
+: 1706046096:0;r
+: 1706046376:0;wf-recorder --audio --file=recording_with_audio.mp4
+: 1706046393:0;ll
+: 1706046397:0;r
+: 1706046609:0;wf-recorder --file=$(date +"%Y-%m-%d_%H-%M-%S")_recording.mp4
+: 1706046644:0;r
+: 1706046731:0;pwd
+: 1706046735:0;r
+: 1706046739:0;pwd
+: 1706046767:0;..
+: 1706046778:0;wf-recorder --file=~/Videos/record_$(date +"%Y-%m-%d_%H-%M-%S").mp4
+: 1706046812:0;wf-recorder --file=/home/jaime/Videos/record_$(date +"%Y-%m-%d_%H-%M-%S").mp4
+: 1706046831:0;Videos
+: 1706046833:0;pwd
+: 1706046846:0;wf-recorder --file=/home/jaimito/Videos/record_$(date +"%Y-%m-%d_%H-%M-%S").mp4
+: 1706046875:0;.
+: 1706046876:0;..
+: 1706046877:0;ll
+: 1706046889:0;rm 2024-01-23_14-50-09_recording.mp4 recording_with_audio.mp4 
+: 1706046894:0;Videos
+: 1706046895:0;ll
+: 1706046898:0;r
+: 1706054292:9;ping -c 10 google.com
+: 1706054597:0;rofi --version
+: 1706056151:0;fy
+: 1706056217:0;vr
+: 1706056249:0;cd Downloads
+: 1706056251:0;ll
+: 1706056277:0;mv Traffic\ Control\ Research\ Paper.docx Traffic-Control-Research-Paper.docx
+: 1706056277:0;ll
+: 1706056286:0;mv Jaime\ Aleman.pdf Jaime-Aleman.pdf
+: 1706056287:0;ll
+: 1706056295:0;r
+: 1706060536:0;..
+: 1706060542:0;mat 5 sway-outputs
+: 1706060546:0;man 5 sway-outputs
+: 1706060553:0;man 5 sway-output
+: 1706060604:0;swaymsg -t get_outputs
+: 1706060875:0;man 5 sway-output
+: 1706060920:0;swaymsg -t get_outputs
+: 1706062010:0;pwd
+: 1706062011:0;..
+: 1706062027:0;pwd
+: 1706062028:0;ll
+: 1706062032:0;round-two
+: 1706062037:0;v
+: 1706064946:0;swaymsg -t get_version
+: 1706065676:0;xeyes
+: 1706065685:0;fy
+: 1706065804:0;echo $TERM
+: 1706066070:0;fastfetch
+: 1706066856:0;cd '/home/jaimito/Obsidian/round-two'
+: 1706100955:0;fastfetch
+: 1706109764:0;sudo pacman -Ss visual-studio-code-bin
+: 1706109780:0;fy
+: 1706109804:0;ping -c 10 google.com
+: 1706109841:0;sudo pacman -Ss visual-studio-code-bin
+: 1706109847:0;fy
+: 1706110962:0;r
+: 1706112062:0;fc-list | grep "JetBrains"
+: 1706112090:0;fc-list | grep "IBM"
+: 1706113878:0;pip --help
+: 1706113883:0;fy
+: 1706113941:0;python --version
+: 1706113960:0;sudo pacman -Ss python-pip
+: 1706113983:0;sudo pacman -S python-pipx
+: 1706114016:0;pipx install open-interpreter
+: 1706114168:0;ll
+: 1706114225:0;pipx ensurepath
+: 1706114310:0;pipx completions
+: 1706114440:0;v .zshrc
+: 1706114551:0;eval "$(register-python-argcomplete pipx)"
+: 1706114557:0;source .zshrc
+: 1706114563:0;interpreter
+: 1706114847:0;br
+: 1706114867:0;pwd
+: 1706114867:0;ll
+: 1706114995:0;_imagemagick --version
+: 1706115000:0;imagemagick --version
+: 1706115078:0;pip --help
+: 1706115083:0;pipx --help
+: 1706115370:0;python -m venv
+: 1706115686:0;r
+: 1706115843:0;pwd
+: 1706115847:0;ll
+: 1706115849:0;..
+: 1706115851:0;pwd
+: 1706115854:0;mkdir pip
+: 1706115856:0;pip
+: 1706115859:0;pwd
+: 1706115859:0;ll
+: 1706115898:0;python -m venv env
+: 1706115904:0;ll
+: 1706115908:0;r
+: 1706115945:0;source env/bin/activate
+: 1706115955:0;pip install pillow
+: 1706115971:0;deactivate
+: 1706116099:0;pip install --upgrade pip
+: 1706116215:0;..
+: 1706116216:0;pwd
+: 1706116226:0;pic Pictures/wallpapers
+: 1706116235:0;Pictures/wallpapers/
+: 1706116236:0;ll
+: 1706116425:0;touch resize.py
+: 1706116428:0;v resize.py
+: 1706116542:0;chmod +x resize.py
+: 1706116563:0;v resize.py
+: 1706116584:0;pwd
+: 1706116586:0;ll
+: 1706116601:0;./resize.py
+: 1706116609:0;v resize.py
+: 1706116763:0;./resize.py
+: 1706116771:0;ll
+: 1706116781:0;r
+: 1706116813:0;Obsidian
+: 1706116814:0;r
+: 1706116834:0;lsblk
+: 1706116864:0;sudo mount /dev/sdb1 /mnt/usb 
+: 1706116874:0;ll /mnt/usb
+: 1706116878:0;r
+: 1706117341:4;sudo umount /mnt/usb 
+: 1706117350:0;ll /mnt/usb
+: 1706119527:0;ping -c 10 google.com
+: 1706153500:0;pwd
+: 1706153504:0;...
+: 1706153506:0;pwd
+: 1706153509:0;lblk
+: 1706153512:0;lsblk
+: 1706153539:0;ll /mnt/usb
+: 1706153563:0;sudo mount /mnt/usb /dev/sdb1
+: 1706153605:0;sudo mount /dev/sdb1 /mnt/usb 
+: 1706153612:0;ll /mnt/usb
+: 1706153734:0;r
+: 1706154232:0;pwd
+: 1706154239:0;ll
+: 1706154244:0;extensions
+: 1706154246:0;ll
+: 1706154250:0;ll -sa
+: 1706154252:0;ll -a
+: 1706154254:0;ll -s
+: 1706154256:0;ls -a
+: 1706154260:0;la
+: 1706154262:0;ls
+: 1706154262:0;ll
+: 1706154264:0;lll
+: 1706154305:0;pwd
+: 1706154311:0;ll
+: 1706154316:0;r
+: 1706154355:0;pwd
+: 1706154358:0;~/
+: 1706154360:0;pwd
+: 1706154371:0;sudo umount /mnt/usb 
+: 1706154409:0;ll /mnt/usb
+: 1706154425:0;sudo umount /mnt/usb 
+: 1706155804:0;lsof +D /mnt/usb
+: 1706155941:0;sudo umount /mnt/usb 
+: 1706155946:0;ll /mnt/usb
+: 1706156870:0;interpreter
+: 1706157688:0;lsblk
+: 1706157707:0;sudo mount /dev/sdb1 /mnt/usb 
+: 1706157720:0;ll /mnt/usb
+: 1706157730:0;/mnt/usb/extensions
+: 1706157731:0;ll
+: 1706157741:0;bat extensions.json
+: 1706157830:0;find
+: 1706157853:0;find . -type d | wc -l
+: 1706157927:0;find . -type d > extensions-list.txt
+: 1706157946:0;ll
+: 1706157959:0;bat extensions-list.txt
+: 1706157972:0;v extensions-list.txt
+: 1706157983:0;rm extensions-list.txt
+: 1706157988:0;ll
+: 1706158064:0;find . -type d -maxdepth 1 > extensions-list.txt
+: 1706158245:0;find . -maxdepth 1 -type d > extensions-list.txt
+: 1706158253:0;v extensions-list.txt
+: 1706159126:0;ll /mnt/usb
+: 1706159136:0;ll /mnt/usb/home
+: 1706159143:0;ll
+: 1706159171:0;rsync -avh --progress /mnt/usb/home/www/ ~/www/ 
+: 1706159229:0;ll
+: 1706161098:0;speedtest
+: 1706162084:0;pwd
+: 1706162088:0;~/
+: 1706162089:0;ll
+: 1706162091:0;pwc
+: 1706162093:0;pwd
+: 1706162112:0;sudo umount /mnt/usb 
+: 1706162121:0;lsblk
+: 1706162129:0;ll /mnt/usb
+: 1706164098:0;www/DEMOS
+: 1706164100:0;ll
+: 1706164176:0;npm create astro@latest theVapory && cd theVapory && ll
+: 1706164305:0;lg
+: 1706164316:0;git flow init
+: 1706164328:0;lg
+: 1706164371:0;gs
+: 1706164374:0;gd
+: 1706164377:0;gl
+: 1706164409:0;rm -rf node_modules package-lock.json && pnpm install
+: 1706164435:0;pnpm add -g pnpm
+: 1706164451:0;pnpm setup
+: 1706164467:0;source ~/.zshrc
+: 1706164476:0;v .zshrc
+: 1706164490:0;ll
+: 1706164512:0;pnpm add @astrojs/tailwind tailwindcss
+: 1706164542:0;code .
+: 1706164628:0;gs
+: 1706164638:0;gd package.json
+: 1706164666:0;pnpm dlx tailwindcss init
+: 1706164744:0;ll
+: 1706164751:0;br
+: 1706164767:0;mkdir src/styles
+: 1706164775:0;touch src/styles/global.css
+: 1706164829:0;pnpm dev
+: 1706164977:0;www/DEMOS/rigobuiltgarage.com3
+: 1706164980:0;v
+: 1706165489:0;ll
+: 1706165494:0;pnpm dev
+: 1706189337:0;pwd
+: 1706189338:0;..
+: 1706189340:0;ll
+: 1706189352:0;rm -rf theVapory
+: 1706189366:0;npm create astro@latest theVapory && cd theVapory && ll
+: 1706189435:0;pnpm add @astrojs/tailwind tailwindcss
+: 1706189453:0;ll
+: 1706189477:0;rm -rf node_modules package-lock.json && pnpm install
+: 1706189491:0;pnpm dev
+: 1706189582:0;pnpm astro add tailwind
+: 1706189610:0;pnpm dev
+: 1706189722:0;www/DEMOS/theVapory
+: 1706189727:0;code .
+: 1706189788:0;gs
+: 1706189794:0;git init flow
+: 1706189801:0;lg
+: 1706189817:0;ll
+: 1706189824:0;rm -rf flow
+: 1706189829:0;git flow init
+: 1706189836:0;lg
+: 1706195367:0;gl
+: 1706195434:0;ping -c 10 google.com
+: 1706195599:0;gs
+: 1706195601:0;lg
+: 1706195990:0;pnpm add sqlite3
+: 1706196000:0;gd
+: 1706196004:0;gs
+: 1706196015:0;gd src/layouts/Layout.astro
+: 1706196044:0;pwd
+: 1706196045:0;ll
+: 1706196050:0;touch data.js
+: 1706196580:0;gs
+: 1706196615:0;lg
+: 1706196683:0;pnpm add @supabase/supabase-js
+: 1706196693:0;gd
+: 1706196696:0;gs
+: 1706196701:0;gd package.json
+: 1706197933:0;touch .env
+: 1706198057:0;ll
+: 1706198063:0;mkdir src/lib
+: 1706198071:0;touch src/lib/supabase.ts
+: 1706198425:0;mkdir -p src/pages/api/auth
+: 1706198442:0;src/pages/api/auth
+: 1706198443:0;ll
+: 1706198445:0;pwd
+: 1706198461:0;touch signin.ts sighout.ts register.ts
+: 1706198462:0;...
+: 1706198464:0;..
+: 1706198468:0;pwd
+: 1706198471:0;gs
+: 1706198671:0;src/pages
+: 1706198691:0;touch register.astro signin.astro dashboard.astro
+: 1706198693:0;...
+: 1706199245:0;touch src/pages/api/auth/callback.ts
+: 1706199622:0;br
+: 1706199687:0;src/pages/api/auth
+: 1706199688:0;ll
+: 1706199702:0;mv sighout.ts signout.ts
+: 1706199704:0;...
+: 1706199706:0;..
+: 1706201677:0;pnpm add -D @tailwindcss/forms
+: 1706201684:0;gs
+: 1706201688:0;gd package.json
+: 1706205589:0;pnpm dev
+: 1706206255:0;fy
+: 1706206306:0;vr
+: 1706206955:0;pnpm dev
+: 1706208870:0;ll
+: 1706208875:0;Downloads
+: 1706208879:0;git clone https://github.com/notshekhar/Dank-Mono-Font
+: 1706208893:0;Dank-Mono-Font
+: 1706208895:0;ll
+: 1706208939:0;r
+: 1706208976:0;ll
+: 1706209030:0;cp DankMono-Italic.ttf DankMono-Regular.ttf /usr/share/fonts/
+: 1706209035:0;sudo cp DankMono-Italic.ttf DankMono-Regular.ttf /usr/share/fonts/
+: 1706209085:0;fc-cache -v
+: 1706209116:0;fc-list | grep "JetBrains"
+: 1706209122:0;fc-list | grep "Dank"
+: 1706209206:0;fc-list | grep "ibm"
+: 1706209210:0;fc-list | grep "IBM"
+: 1706211255:0;fc-list | grep "Dank"
+: 1706211408:0;cd '/home/jaimito/Obsidian/round-two'
+: 1706211411:0;cd '/home/jaimito/Obsidian/kepano-obsidian/Categories'
+: 1706211424:0;cd '/home/jaimito/Downloads/Dank-Mono-Font'
+: 1706211434:0;cd '/home/jaimito/Obsidian/kepano-obsidian/Categories'
+: 1706211436:0;cd '/home/jaimito/Obsidian/kepano-obsidian/Notes'
+: 1706211463:0;cd '/home/jaimito/Downloads/Dank-Mono-Font'
+: 1706211647:0;fc-list | grep "IBM"
+: 1706211663:0;fc-cache -f -v
+: 1706211761:0;cd '/home/jaimito/Downloads/Dank-Mono-Font'
+: 1706211959:0;gs
+: 1706211964:0;Downloads
+: 1706211965:0;ll
+: 1706211970:0;m palette.ase
+: 1706211974:0;rm palette.ase
+: 1706211976:0;ll
+: 1706211979:0;git clone https://github.com/cancng/fonts
+: 1706211984:0;fonts/
+: 1706211984:0;ll
+: 1706212018:0;v install.sh
+: 1706212069:0;./install.sh
+: 1706212114:0;v install.sh
+: 1706212171:0;ll
+: 1706212276:0;unzip '\*.zip'
+: 1706212335:0;ll
+: 1706212645:0;sudo find . -name "*.ttf" -exec cp {} /usr/share/fonts \;
+: 1706212665:0;fc-cache -f -v
+: 1706212677:0;fc-list | grep "Dank"
+: 1706212685:0;br
+: 1706212695:0;ll
+: 1706212701:0;..
+: 1706212703:0;br
+: 1706212732:0;fc-list | grep "Lisa"
+: 1706212747:0;/usr/share/fonts
+: 1706212749:0;ll
+: 1706212753:0;ll Dank*
+: 1706212766:0;pwd
+: 1706212773:0;Downloads/fonts
+: 1706212773:0;ll
+: 1706212778:0;DankMono
+: 1706212780:0;ll
+: 1706212791:0;Downloads
+: 1706212792:0;ll
+: 1706212795:0;Dank-Mono-Font
+: 1706212797:0;ll
+: 1706212936:0;~/Downloads/fonts
+: 1706212937:0;ll
+: 1706212940:0;bat README.md
+: 1706214649:0;pnpm dev
+: 1706215742:0;gs
+: 1706215811:0;code .
+: 1706216252:0;lg
+: 1706224581:0;ping -c 10 google.com
+: 1706225632:0;pwd
+: 1706225634:0;ll
+: 1706225640:0;git clone https://github.com/kevinzunigacuellar/astro-supabase repo
+: 1706226043:0;ll
+: 1706226047:0;.repo
+: 1706226051:0;v
+: 1706226665:0;br
+: 1706227224:0;ll
+: 1706227232:0;pwd
+: 1706227280:0;cp ~/www/DEMOS/theVapory/.repo/public/hero.png ~/www/DEMOS/theVapory/public/hero.png
+: 1706227294:0;exit
+: 1706227582:0;pnpm install
+: 1706227622:0;pnpm dev
+: 1706227709:0;pwd
+: 1706227713:0;ll
+: 1706227720:0;pnpm dev
+: 1706227935:0;gs
+: 1706227937:0;gl
+: 1706227940:0;lg
+: 1706227948:0;..
+: 1706227952:0;gs
+: 1706227957:0;gl
+: 1706227962:0;lg
+: 1706232153:0;ll
+: 1706232218:0;rm -rf node_modules public src astro.config.mjs data.js package.json pnpm-lock.yaml README.md supabase.js tailwind.config.mjs tsconfig.json
+: 1706232223:0;ll
+: 1706232241:0;cp .repo/* . 
+: 1706232248:0;cp -r .repo/* . 
+: 1706232260:0;ll
+: 1706232271:0;pnpm install 
+: 1706232287:0;pnpm dev
+: 1706232782:0;vr
+: 1706232824:0;pipx install aider-chat
+: 1706233217:0;pnpm format
+: 1706233226:0;gs
+: 1706233282:0;aider
+: 1706233497:0;export OPENAI_API_KEY=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
+: 1706233499:0;aider
+: 1706235279:0;pnpm dev
+: 1706337957:0;cd '/home/jaimito/Downloads/Dank-Mono-Font'
+: 1706338123:0;lsblk
+: 1706338166:0;sudo mkfs.exfat -n USB /dev/sdb 
+: 1706338231:0;r
+: 1706338315:0;/run/media
+: 1706338316:0;ll
+: 1706338318:0;jaimito
+: 1706338320:0;ll
+: 1706338322:0;USB
+: 1706338324:0;ll
+: 1706338326:0;pwd
+: 1706338330:0;ll
+: 1706338462:0;rsync -avh ~/readme.md .
+: 1706338465:0;ll
+: 1706338471:0;bat readme.md
+: 1706338511:0;rsync -avh ~/.wakatime.cfg .
+: 1706338512:0;ll
+: 1706338538:0;mkdir .config
+: 1706338549:0;ll
+: 1706338552:0;.config
+: 1706338554:0;ll
+: 1706338595:0;rsync -avh ~/.config/broot ./broot
+: 1706338603:0;ll
+: 1706338607:0;r
+: 1706338631:0;ll
+: 1706338637:0;rm -rf broot
+: 1706338645:0;rsync -avh ~/.config/broot/ ./broot/
+: 1706338662:0;rm broot
+: 1706338667:0;rm -rf broot
+: 1706338669:0;ll
+: 1706338720:0;mkdir -p Code/User
+: 1706338731:0;Code/User
+: 1706338732:0;ll
+: 1706338749:0;rsync -avh ~/.config/Code/User/settings.json .
+: 1706338751:0;ll
+: 1706338783:0;..
+: 1706338806:0;mkdir -p .vscode/extensions
+: 1706338811:0;.vscode/extensions
+: 1706338835:0;rsync -avh ~/.vscode/extensions/* .
+: 1706338840:0;ll
+: 1706338843:0;pwd
+: 1706338851:0;..
+: 1706338852:0;ll
+: 1706338861:0;ll extensions
+: 1706338874:0;..
+: 1706338876:0;.config
+: 1706338879:0;ll
+: 1706338882:0;pwd
+: 1706338915:0;rsync -avh ~/.config/kitty/ ./kitty/
+: 1706338918:0;ll
+: 1706338923:0;kitty/
+: 1706338924:0;ll
+: 1706338926:0;..
+: 1706338957:0;rsync -avh ~/.config/neofetch/ ./neofetch/
+: 1706338960:0;ll neofetch
+: 1706338966:0;bat neofetch/config.conf
+: 1706338991:0;rsync -avh ~/.config/nvim/ ./nvim/
+: 1706338996:0;ll
+: 1706338999:0;r
+: 1706339036:0;rsync -avh ~/.config/ranger/ ./ranger/
+: 1706339042:0;ll ranger
+: 1706339173:0;rsync -avh /usr/share/fonts/ ./fonts/
+: 1706339181:0;br
+: 1706339224:0;fc-list | grep "IBM"
+: 1706339228:0;fc-list | grep "awesome"
+: 1706339233:0;fc-list | grep "Awesome"
+: 1706339274:0;rsyn -avh ~/Downloads/ ./Downloads/
+: 1706339280:0;rsync -avh ~/Downloads/ ./Downloads/
+: 1706339285:0;ll Downloads
+: 1706339344:0;rsync -avh --progress ~/www/ ~/www/
+: 1706339353:0;rsync -avh --progress ~/www/ ./www/
+: 1706340497:0;/run/media/jaimito/USB
+: 1706340499:0;ll
+: 1706340510:0;rsync ~/.zshrc .
+: 1706340512:0;ll
+: 1706340518:0;v .zshrc
+: 1706340595:0;ll
+: 1706340604:0;mv .zshrc .zshrc-back
+: 1706341605:0;rsync -avh --progress ~/www/ ./www/
+: 1706341667:0;yay -Ss firefox-developer-edition
+: 1706341840:0;yay -Ss firefox-developer-edition | grep -E 'firefox-developer-edition$|English'\
+
+: 1706342092:0;ll
+: 1706342105:0;pwd
+: 1706342108:0;~/
+: 1706342110:0;vr
+: 1706381124:0;pwd
+: 1706381127:0;ll
+: 1706381146:0;reboot
+: 1706381305:0;ll /mnt/usb
+: 1706381310:0;lsblk
+: 1706381324:0;sudo mount /dev/sdb1 /mnt/usb 
+: 1706381363:0;sudo mount /mnt/usb /dev/sdb1
+: 1706381371:0;lsblk
+: 1706381400:0;ll /mnt/usb
+: 1706381417:0;sudo mount /dev/sdb /mnt/usb
+: 1706381423:0;ll /mnt/usb
+: 1706381428:0;r
+: 1706381538:0;rsync -avh /home/jaimito/Obsidian/ /mnt/usb/Obsidian/ 
+: 1706381566:0;pwd
+: 1706381573:0;mkdir /mnt/usb/Obsidian
+: 1706381641:0;ll /mnt/usb
+: 1706381679:0;whoami
+: 1706381692:0;chown -R jaimito:jaimito .
+: 1706381700:0;ll
+: 1706381704:0;ll /mnt/usb
+: 1706381748:0;/mnt/usb
+: 1706381749:0;ll
+: 1706381752:0;r
+: 1706381762:0;br
+: 1706381795:0;pwd
+: 1706381797:0;ll
+: 1706381821:0;sudo chown jaimito:jaimito readme.md
+: 1706382309:0;lsblk
+: 1706382315:0;~/
+: 1706382384:0;lsblk -l
+: 1706382404:0;fdisk -l
+: 1706382409:0;sudo fdisk -l
+: 1706382457:0;sudo mkfs.ext4 /dev/sdb -L USB
+: 1706382491:0;sudo umount /dev/sdb 
+: 1706382527:0;sudo mkfs.ext4 /dev/sdb -L USB
+: 1706382701:0;sudo e2fsck -f /dev/sdb
+: 1706382725:0;sudo mount /dev/sdb /mnt/usb 
+: 1706382738:0;ll /mnt/usb
+: 1706382749:0;r
+: 1706382822:0;rsync -avh /home/jaimito/Obsidian/ /mnt/usb/Obsidian/ 
+: 1706382835:0;/mnt/usb
+: 1706382837:0;ll
+: 1706382854:0;rsync -avh ~/readme.md .
+: 1706382859:0;ll
+: 1706382963:0;sudo sudo chown jaimito:jaimito /mnt/usb 
+: 1706382969:0;ll
+: 1706382979:0;rsync -avh ~/readme.md .
+: 1706382982:0;ll
+: 1706382993:0;rsync -avh /home/jaimito/Obsidian/ /mnt/usb/Obsidian/ 
+: 1706383026:0;rsync -avh --progress ~/www/ ./www/
+: 1706384102:0;ll
+: 1706384128:0;rsync ~/.zshrc .
+: 1706384137:0;rsync -avh ~/Downloads/ ./Downloads/
+: 1706384169:0;rsync -avh /usr/share/fonts/ ./fonts/
+: 1706384567:0;ll
+: 1706384574:0;lll
+: 1706384579:0;br
+: 1706384658:0;brll
+: 1706384659:0;ll
+: 1706384745:0;rsync -avh ~/.config/ranger/ ./ranger/
+: 1706384755:0;rsync -avh ~/.config/nvim/ ./nvim/
+: 1706384767:0;rsync -avh ~/.config/neofetch/ ./neofetch/
+: 1706384780:0;rsync -avh ~/.config/kitty/ ./kitty/
+: 1706384804:0;rsync -avh ~/.vscode/extensions/* vscode-extensions/
+: 1706384847:0;ll
+: 1706384865:0;rsync -avh ~/.config/Code/User/settings.json vscode-settings/
+: 1706385010:0;ll
+: 1706385026:0;r
