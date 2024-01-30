@@ -53,9 +53,11 @@ alias fz='rg --files --hidden --follow --ignore-vcs -g "!{node_modules,.git}" | 
 # alias hist='history -E'
 
 eval "$(starship init zsh)"
-export MANPAGER='nvim +Man!'
-export VISUAL=nvim
-export EDITOR=nvim
+
+# export MANPAGER='nvim +Man!'
+# export VISUAL=nvim
+# export EDITOR=nvim
+
 # export XDG_CURRENT_DESKTOP=Hyprland
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
