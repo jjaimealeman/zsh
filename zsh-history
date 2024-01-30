@@ -1,0 +1,386 @@
+: 1705943743:0;man -k sway
+: 1705943809:0;touch readme.md
+: 1705945721:0;			vim readme.md
+: 1705945846:0;git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+: 1705945858:0;~/.fzf/install
+: 1705946184:0;sudo pacman -S kitty neovim
+: 1705946487:0;sudo pacman -S kitty
+: 1705946493:0;kitty
+: 1705947023:0;sudo pacman -S neovim
+: 1705947041:0;neovim
+: 1705947069:0;nvim --version
+: 1705947076:0;vim --version
+: 1705947331:0;mkdir /mnt/usb
+: 1705947337:0;sudo mkdir /mnt/usb
+: 1705947859:0;nvim .wakatime.cfg
+: 1705948229:0;sudo pacman -S nodejs
+: 1705948264:0;sudo pacman -S nodejs npm yarn pnpm
+: 1705948291:0;node --version
+: 1705948295:0;npm --version
+: 1705948298:0;yarn --version
+: 1705948303:0;pnpm --version
+: 1705948763:0;sudo pacman -S ripgrep
+: 1705951852:0;sudo pacman -S gitflow-avh
+: 1705951887:0;yay -S gitflow-avh
+: 1705951945:0;pacman -S lazygit
+: 1705951950:0;sudo pacman -S lazygit
+: 1705951992:0;git config --global init.defaultBranch main
+: 1705952011:0;git branch -m main
+: 1705952044:0;git config --global user.email "jjaimealeman@gmail.com"
+: 1705952055:0;git config --global user.name "Jaime Aleman"
+: 1705952069:0;lazigit
+: 1705952802:0;neofetch
+: 1705952839:0;sudo pacman -S fastfetch
+: 1705954453:0;which $TERM
+: 1705954632:0;nvim foot.ini
+: 1705955358:0;waybar --version
+: 1705955556:0;nvim readme.md
+: 1705956124:0;sudo pacman -S broot
+: 1705956138:0;broot
+: 1705956238:0;git init
+: 1705956252:0;lazygit
+: 1705956259:0;git add .
+: 1705956267:0;git commit -m"first commit"
+: 1705956276:0;nvim
+: 1705956766:0;man sway-5
+: 1705956959:0;notify-send hello
+: 1705958800:0;sudo pacman -S tlpgui
+: 1705958810:0;yay -Ss tlpgui
+: 1705958816:0;yay -Ss tlp
+: 1705958890:0;yay -Ss tlpui
+: 1705958900:0;yay -S tlpui
+: 1705958960:0;tlpui
+: 1705959096:0;cat /etc/pacman.conf
+: 1705959165:0;v /etc/pacman.conf
+: 1705959173:0;nvim /etc/pacman.conf
+: 1705959208:0;sudo nvim /etc/pacman.conf
+: 1705959242:0;~/.config/yay
+: 1705959513:0;yay --save
+: 1705959535:0;bat config.json
+: 1705959537:0;cat config.json
+: 1705959572:0;yay
+: 1705959581:0;sudo pacman -Syyu
+: 1705959860:0;man sway
+: 1705960083:0;nvim .zshrc
+: 1705960523:0;sudo pacman -S exa
+: 1705960656:0;sudo pacman -S bat
+: 1705960981:0;fuser -m /mnt/usb 
+: 1705961086:0;v readme.md
+: 1705969485:0;swaybg --version
+: 1705969489:0;man swaybg
+: 1705970220:0;nwg-shell-help
+: 1705971821:0;weather
+: 1705972217:0;range
+: 1705972219:0;ranger
+: 1705972844:0;.config/ranger
+: 1705972889:0;ll colorschemes
+: 1705973638:0;alacritty --class=ranger -e ranger
+: 1705973677:0;exa
+: 1705973837:0;.config/ranger/colorschemes
+: 1705973869:0;git clone https://github.com/dracula/ranger .
+: 1705973906:0;git clone https://github.com/dracula/ranger dracula
+: 1705980613:0;.config/kitty
+: 1705980620:0;v kitty.conf
+: 1705980793:0;sway/
+: 1705980871:0;v config
+: 1705981869:0;echo $
+: 1705981873:0;echo $SHELL
+: 1705982251:0;ld
+: 1705982263:0;fv
+: 1705982284:0;fz
+: 1705982336:0;git status
+: 1705982359:0;git status -sb
+: 1705982388:0;git log --oneline --abbrev-commit --all --graph --decorate --color --pretty=format:'%C(yellow)%h%Creset -%C(red)%d%Creset %s %C(dim green)(%cr)'
+: 1705982578:0;xkill
+: 1705983227:0;scripts/foot 
+: 1705984409:0;whereis nvim
+: 1705985869:0;gdgfd
+: 1705986021:0;asdads
+: 1705986026:0;asdas
+: 1705986197:0;.config/sway
+: 1705987018:0;killall -SIGUSR2 waybar
+: 1705987770:0;swaymsg restart
+: 1705988146:0;fc-list | grep "Fira"
+: 1705988237:0;swaymsg reload
+: 1706015726:0;fd
+: 1706015731:0;sudo pacman -S fd
+: 1706030405:0;ping -v 10 google.com
+: 1706031180:0;sudo pacman -Ss speedtest
+: 1706031189:0;sudo pacman -S speedtest
+: 1706031192:0;sudo pacman -S speedtest-cli
+: 1706033449:0;sudo pacman -S obsidian
+: 1706036180:0;git clone https://github.com/kepano/kepano-obsidian
+: 1706036450:0;.config/broot
+: 1706037092:0;kepano-obsidian
+: 1706045254:0;bat
+: 1706045923:0;ffmpeg -hide_banner -encoders | grep -E '^ V' | grep -F '(codec' | cut -c 8- | sort
+: 1706045966:0;sudo pacman -Ss wf-recorder
+: 1706045997:0;sudo pacman -S wf-recorder
+: 1706046065:0;wf-recorder
+: 1706046376:0;wf-recorder --audio --file=recording_with_audio.mp4
+: 1706046609:0;wf-recorder --file=$(date +"%Y-%m-%d_%H-%M-%S")_recording.mp4
+: 1706046778:0;wf-recorder --file=~/Videos/record_$(date +"%Y-%m-%d_%H-%M-%S").mp4
+: 1706046812:0;wf-recorder --file=/home/jaime/Videos/record_$(date +"%Y-%m-%d_%H-%M-%S").mp4
+: 1706046846:0;wf-recorder --file=/home/jaimito/Videos/record_$(date +"%Y-%m-%d_%H-%M-%S").mp4
+: 1706046875:0;.
+: 1706046889:0;rm 2024-01-23_14-50-09_recording.mp4 recording_with_audio.mp4 
+: 1706046894:0;Videos
+: 1706054597:0;rofi --version
+: 1706056249:0;cd Downloads
+: 1706056277:0;mv Traffic\ Control\ Research\ Paper.docx Traffic-Control-Research-Paper.docx
+: 1706056286:0;mv Jaime\ Aleman.pdf Jaime-Aleman.pdf
+: 1706060542:0;mat 5 sway-outputs
+: 1706060546:0;man 5 sway-outputs
+: 1706060875:0;man 5 sway-output
+: 1706060920:0;swaymsg -t get_outputs
+: 1706062032:0;round-two
+: 1706064946:0;swaymsg -t get_version
+: 1706065676:0;xeyes
+: 1706065804:0;echo $TERM
+: 1706100955:0;fastfetch
+: 1706109841:0;sudo pacman -Ss visual-studio-code-bin
+: 1706113941:0;python --version
+: 1706113960:0;sudo pacman -Ss python-pip
+: 1706113983:0;sudo pacman -S python-pipx
+: 1706114016:0;pipx install open-interpreter
+: 1706114225:0;pipx ensurepath
+: 1706114310:0;pipx completions
+: 1706114551:0;eval "$(register-python-argcomplete pipx)"
+: 1706114557:0;source .zshrc
+: 1706114995:0;_imagemagick --version
+: 1706115000:0;imagemagick --version
+: 1706115078:0;pip --help
+: 1706115083:0;pipx --help
+: 1706115370:0;python -m venv
+: 1706115854:0;mkdir pip
+: 1706115856:0;pip
+: 1706115898:0;python -m venv env
+: 1706115945:0;source env/bin/activate
+: 1706115955:0;pip install pillow
+: 1706115971:0;deactivate
+: 1706116099:0;pip install --upgrade pip
+: 1706116226:0;pic Pictures/wallpapers
+: 1706116235:0;Pictures/wallpapers/
+: 1706116425:0;touch resize.py
+: 1706116542:0;chmod +x resize.py
+: 1706116609:0;v resize.py
+: 1706116763:0;./resize.py
+: 1706116813:0;Obsidian
+: 1706153509:0;lblk
+: 1706154244:0;extensions
+: 1706154250:0;ll -sa
+: 1706154252:0;ll -a
+: 1706154254:0;ll -s
+: 1706154256:0;ls -a
+: 1706154260:0;la
+: 1706154262:0;ls
+: 1706155804:0;lsof +D /mnt/usb
+: 1706156870:0;interpreter
+: 1706157730:0;/mnt/usb/extensions
+: 1706157741:0;bat extensions.json
+: 1706157830:0;find
+: 1706157853:0;find . -type d | wc -l
+: 1706157927:0;find . -type d > extensions-list.txt
+: 1706157959:0;bat extensions-list.txt
+: 1706157983:0;rm extensions-list.txt
+: 1706158064:0;find . -type d -maxdepth 1 > extensions-list.txt
+: 1706158245:0;find . -maxdepth 1 -type d > extensions-list.txt
+: 1706158253:0;v extensions-list.txt
+: 1706159136:0;ll /mnt/usb/home
+: 1706159171:0;rsync -avh --progress /mnt/usb/home/www/ ~/www/ 
+: 1706161098:0;speedtest
+: 1706162091:0;pwc
+: 1706162112:0;sudo umount /mnt/usb 
+: 1706164098:0;www/DEMOS
+: 1706164435:0;pnpm add -g pnpm
+: 1706164451:0;pnpm setup
+: 1706164467:0;source ~/.zshrc
+: 1706164666:0;pnpm dlx tailwindcss init
+: 1706164767:0;mkdir src/styles
+: 1706164775:0;touch src/styles/global.css
+: 1706164977:0;www/DEMOS/rigobuiltgarage.com3
+: 1706189352:0;rm -rf theVapory
+: 1706189366:0;npm create astro@latest theVapory && cd theVapory && ll
+: 1706189435:0;pnpm add @astrojs/tailwind tailwindcss
+: 1706189477:0;rm -rf node_modules package-lock.json && pnpm install
+: 1706189582:0;pnpm astro add tailwind
+: 1706189722:0;www/DEMOS/theVapory
+: 1706189794:0;git init flow
+: 1706189824:0;rm -rf flow
+: 1706189829:0;git flow init
+: 1706195990:0;pnpm add sqlite3
+: 1706196015:0;gd src/layouts/Layout.astro
+: 1706196050:0;touch data.js
+: 1706196683:0;pnpm add @supabase/supabase-js
+: 1706196693:0;gd
+: 1706197933:0;touch .env
+: 1706198063:0;mkdir src/lib
+: 1706198071:0;touch src/lib/supabase.ts
+: 1706198425:0;mkdir -p src/pages/api/auth
+: 1706198461:0;touch signin.ts sighout.ts register.ts
+: 1706198671:0;src/pages
+: 1706198691:0;touch register.astro signin.astro dashboard.astro
+: 1706199245:0;touch src/pages/api/auth/callback.ts
+: 1706199687:0;src/pages/api/auth
+: 1706199702:0;mv sighout.ts signout.ts
+: 1706199704:0;...
+: 1706201677:0;pnpm add -D @tailwindcss/forms
+: 1706201688:0;gd package.json
+: 1706206255:0;fy
+: 1706208879:0;git clone https://github.com/notshekhar/Dank-Mono-Font
+: 1706209030:0;cp DankMono-Italic.ttf DankMono-Regular.ttf /usr/share/fonts/
+: 1706209035:0;sudo cp DankMono-Italic.ttf DankMono-Regular.ttf /usr/share/fonts/
+: 1706209085:0;fc-cache -v
+: 1706209116:0;fc-list | grep "JetBrains"
+: 1706209206:0;fc-list | grep "ibm"
+: 1706211408:0;cd '/home/jaimito/Obsidian/round-two'
+: 1706211434:0;cd '/home/jaimito/Obsidian/kepano-obsidian/Categories'
+: 1706211436:0;cd '/home/jaimito/Obsidian/kepano-obsidian/Notes'
+: 1706211970:0;m palette.ase
+: 1706211974:0;rm palette.ase
+: 1706211979:0;git clone https://github.com/cancng/fonts
+: 1706211984:0;fonts/
+: 1706212069:0;./install.sh
+: 1706212114:0;v install.sh
+: 1706212276:0;unzip '\*.zip'
+: 1706212645:0;sudo find . -name "*.ttf" -exec cp {} /usr/share/fonts \;
+: 1706212665:0;fc-cache -f -v
+: 1706212677:0;fc-list | grep "Dank"
+: 1706212732:0;fc-list | grep "Lisa"
+: 1706212747:0;/usr/share/fonts
+: 1706212753:0;ll Dank*
+: 1706212773:0;Downloads/fonts
+: 1706212778:0;DankMono
+: 1706212791:0;Downloads
+: 1706212795:0;Dank-Mono-Font
+: 1706212936:0;~/Downloads/fonts
+: 1706212940:0;bat README.md
+: 1706215811:0;code .
+: 1706224581:0;ping -c 10 google.com
+: 1706225640:0;git clone https://github.com/kevinzunigacuellar/astro-supabase repo
+: 1706226047:0;.repo
+: 1706226051:0;v
+: 1706227280:0;cp ~/www/DEMOS/theVapory/.repo/public/hero.png ~/www/DEMOS/theVapory/public/hero.png
+: 1706227294:0;exit
+: 1706227582:0;pnpm install
+: 1706227957:0;gl
+: 1706227962:0;lg
+: 1706232218:0;rm -rf node_modules public src astro.config.mjs data.js package.json pnpm-lock.yaml README.md supabase.js tailwind.config.mjs tsconfig.json
+: 1706232241:0;cp .repo/* . 
+: 1706232248:0;cp -r .repo/* . 
+: 1706232271:0;pnpm install 
+: 1706232824:0;pipx install aider-chat
+: 1706233217:0;pnpm format
+: 1706233226:0;gs
+: 1706233497:0;export OPENAI_API_KEY=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
+: 1706233499:0;aider
+: 1706235279:0;pnpm dev
+: 1706337957:0;cd '/home/jaimito/Downloads/Dank-Mono-Font'
+: 1706338166:0;sudo mkfs.exfat -n USB /dev/sdb 
+: 1706338315:0;/run/media
+: 1706338318:0;jaimito
+: 1706338322:0;USB
+: 1706338471:0;bat readme.md
+: 1706338511:0;rsync -avh ~/.wakatime.cfg .
+: 1706338538:0;mkdir .config
+: 1706338595:0;rsync -avh ~/.config/broot ./broot
+: 1706338645:0;rsync -avh ~/.config/broot/ ./broot/
+: 1706338662:0;rm broot
+: 1706338667:0;rm -rf broot
+: 1706338720:0;mkdir -p Code/User
+: 1706338731:0;Code/User
+: 1706338749:0;rsync -avh ~/.config/Code/User/settings.json .
+: 1706338806:0;mkdir -p .vscode/extensions
+: 1706338811:0;.vscode/extensions
+: 1706338835:0;rsync -avh ~/.vscode/extensions/* .
+: 1706338861:0;ll extensions
+: 1706338876:0;.config
+: 1706338923:0;kitty/
+: 1706338926:0;..
+: 1706338960:0;ll neofetch
+: 1706338966:0;bat neofetch/config.conf
+: 1706339042:0;ll ranger
+: 1706339224:0;fc-list | grep "IBM"
+: 1706339228:0;fc-list | grep "awesome"
+: 1706339233:0;fc-list | grep "Awesome"
+: 1706339274:0;rsyn -avh ~/Downloads/ ./Downloads/
+: 1706339285:0;ll Downloads
+: 1706339344:0;rsync -avh --progress ~/www/ ~/www/
+: 1706340497:0;/run/media/jaimito/USB
+: 1706340518:0;v .zshrc
+: 1706340604:0;mv .zshrc .zshrc-back
+: 1706341667:0;yay -Ss firefox-developer-edition
+: 1706341840:0;yay -Ss firefox-developer-edition | grep -E 'firefox-developer-edition$|English'\
+
+: 1706342110:0;vr
+: 1706381146:0;reboot
+: 1706381324:0;sudo mount /dev/sdb1 /mnt/usb 
+: 1706381363:0;sudo mount /mnt/usb /dev/sdb1
+: 1706381417:0;sudo mount /dev/sdb /mnt/usb
+: 1706381573:0;mkdir /mnt/usb/Obsidian
+: 1706381679:0;whoami
+: 1706381692:0;chown -R jaimito:jaimito .
+: 1706381795:0;pwd
+: 1706381821:0;sudo chown jaimito:jaimito readme.md
+: 1706382309:0;lsblk
+: 1706382315:0;~/
+: 1706382384:0;lsblk -l
+: 1706382404:0;fdisk -l
+: 1706382409:0;sudo fdisk -l
+: 1706382491:0;sudo umount /dev/sdb 
+: 1706382527:0;sudo mkfs.ext4 /dev/sdb -L USB
+: 1706382701:0;sudo e2fsck -f /dev/sdb
+: 1706382725:0;sudo mount /dev/sdb /mnt/usb 
+: 1706382738:0;ll /mnt/usb
+: 1706382835:0;/mnt/usb
+: 1706382963:0;sudo sudo chown jaimito:jaimito /mnt/usb 
+: 1706382979:0;rsync -avh ~/readme.md .
+: 1706382993:0;rsync -avh /home/jaimito/Obsidian/ /mnt/usb/Obsidian/ 
+: 1706383026:0;rsync -avh --progress ~/www/ ./www/
+: 1706384128:0;rsync ~/.zshrc .
+: 1706384137:0;rsync -avh ~/Downloads/ ./Downloads/
+: 1706384169:0;rsync -avh /usr/share/fonts/ ./fonts/
+: 1706384574:0;lll
+: 1706384579:0;br
+: 1706384658:0;brll
+: 1706384745:0;rsync -avh ~/.config/ranger/ ./ranger/
+: 1706384755:0;rsync -avh ~/.config/nvim/ ./nvim/
+: 1706384767:0;rsync -avh ~/.config/neofetch/ ./neofetch/
+: 1706384780:0;rsync -avh ~/.config/kitty/ ./kitty/
+: 1706384804:0;rsync -avh ~/.vscode/extensions/* vscode-extensions/
+: 1706384865:0;rsync -avh ~/.config/Code/User/settings.json vscode-settings/
+: 1706385010:0;ll
+: 1706385026:0;r
+: 1706579597:0;source .zshenv
+: 1706579599:0;r
+: 1706579599:0;source .zshenv
+: 1706579654:0;r
+: 1706579654:0;source .zshenv
+: 1706579695:0;r
+: 1706579695:0;source .zshenv
+: 1706579742:0;r
+: 1706579742:0;source .zshenv
+: 1706579747:0;gd
+: 1706579897:0;source .zshenv
+: 1706579900:0;r
+: 1706579900:0;source .zshenv
+: 1706579931:0;source .config/zsh/.zshrc
+: 1706579933:0;r
+: 1706579940:0;cd .config/zsh
+: 1706579942:0;gs
+: 1706579947:0;..
+: 1706587139:0;cd .config/zsh
+: 1706587141:0;ll
+: 1706587143:0;gs
+: 1706587144:0;gd
+: 1706587153:0;touch .gitignore
+: 1706587186:0;echo ".zsh-history" > .gitignore
+: 1706587188:0;gs
+: 1706587195:0;lg
+: 1706587290:0;ll
+: 1706587292:0;gs
+: 1706587300:0;source .zshrc
+: 1706587302:0;fy
+: 1706587316:0;pacseek
+: 1706587412:0;r
+: 1706587672:0;source .zshrc
