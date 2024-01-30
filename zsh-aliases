@@ -28,3 +28,6 @@ alias ....='cd ../../..'
 alias .....='cd ../../../..'
 alias ......='cd ../../../../..'
 
+alias fy='fzfyay'
+alias fv='vim $(fz)'
+alias fz='rg --files --hidden --follow --ignore-vcs -g "!{node_modules,.git}" | fzf'
