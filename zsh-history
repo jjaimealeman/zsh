@@ -146,7 +146,6 @@
 : 1706114225:0;pipx ensurepath
 : 1706114310:0;pipx completions
 : 1706114551:0;eval "$(register-python-argcomplete pipx)"
-: 1706114557:0;source .zshrc
 : 1706114995:0;_imagemagick --version
 : 1706115000:0;imagemagick --version
 : 1706115078:0;pip --help
@@ -212,7 +211,6 @@
 : 1706196015:0;gd src/layouts/Layout.astro
 : 1706196050:0;touch data.js
 : 1706196683:0;pnpm add @supabase/supabase-js
-: 1706196693:0;gd
 : 1706197933:0;touch .env
 : 1706198063:0;mkdir src/lib
 : 1706198071:0;touch src/lib/supabase.ts
@@ -226,7 +224,6 @@
 : 1706199704:0;...
 : 1706201677:0;pnpm add -D @tailwindcss/forms
 : 1706201688:0;gd package.json
-: 1706206255:0;fy
 : 1706208879:0;git clone https://github.com/notshekhar/Dank-Mono-Font
 : 1706209030:0;cp DankMono-Italic.ttf DankMono-Regular.ttf /usr/share/fonts/
 : 1706209035:0;sudo cp DankMono-Italic.ttf DankMono-Regular.ttf /usr/share/fonts/
@@ -264,14 +261,12 @@
 : 1706227294:0;exit
 : 1706227582:0;pnpm install
 : 1706227957:0;gl
-: 1706227962:0;lg
 : 1706232218:0;rm -rf node_modules public src astro.config.mjs data.js package.json pnpm-lock.yaml README.md supabase.js tailwind.config.mjs tsconfig.json
 : 1706232241:0;cp .repo/* . 
 : 1706232248:0;cp -r .repo/* . 
 : 1706232271:0;pnpm install 
 : 1706232824:0;pipx install aider-chat
 : 1706233217:0;pnpm format
-: 1706233226:0;gs
 : 1706233497:0;export OPENAI_API_KEY=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
 : 1706233499:0;aider
 : 1706235279:0;pnpm dev
@@ -296,7 +291,6 @@
 : 1706338861:0;ll extensions
 : 1706338876:0;.config
 : 1706338923:0;kitty/
-: 1706338926:0;..
 : 1706338960:0;ll neofetch
 : 1706338966:0;bat neofetch/config.conf
 : 1706339042:0;ll ranger
@@ -323,7 +317,6 @@
 : 1706381795:0;pwd
 : 1706381821:0;sudo chown jaimito:jaimito readme.md
 : 1706382309:0;lsblk
-: 1706382315:0;~/
 : 1706382384:0;lsblk -l
 : 1706382404:0;fdisk -l
 : 1706382409:0;sudo fdisk -l
@@ -341,7 +334,6 @@
 : 1706384137:0;rsync -avh ~/Downloads/ ./Downloads/
 : 1706384169:0;rsync -avh /usr/share/fonts/ ./fonts/
 : 1706384574:0;lll
-: 1706384579:0;br
 : 1706384658:0;brll
 : 1706384745:0;rsync -avh ~/.config/ranger/ ./ranger/
 : 1706384755:0;rsync -avh ~/.config/nvim/ ./nvim/
@@ -349,38 +341,47 @@
 : 1706384780:0;rsync -avh ~/.config/kitty/ ./kitty/
 : 1706384804:0;rsync -avh ~/.vscode/extensions/* vscode-extensions/
 : 1706384865:0;rsync -avh ~/.config/Code/User/settings.json vscode-settings/
-: 1706385010:0;ll
-: 1706385026:0;r
-: 1706579597:0;source .zshenv
-: 1706579599:0;r
-: 1706579599:0;source .zshenv
-: 1706579654:0;r
-: 1706579654:0;source .zshenv
-: 1706579695:0;r
-: 1706579695:0;source .zshenv
-: 1706579742:0;r
-: 1706579742:0;source .zshenv
-: 1706579747:0;gd
-: 1706579897:0;source .zshenv
-: 1706579900:0;r
-: 1706579900:0;source .zshenv
 : 1706579931:0;source .config/zsh/.zshrc
-: 1706579933:0;r
-: 1706579940:0;cd .config/zsh
-: 1706579942:0;gs
-: 1706579947:0;..
-: 1706587139:0;cd .config/zsh
-: 1706587141:0;ll
-: 1706587143:0;gs
 : 1706587144:0;gd
 : 1706587153:0;touch .gitignore
 : 1706587186:0;echo ".zsh-history" > .gitignore
-: 1706587188:0;gs
 : 1706587195:0;lg
 : 1706587290:0;ll
-: 1706587292:0;gs
-: 1706587300:0;source .zshrc
-: 1706587302:0;fy
 : 1706587316:0;pacseek
 : 1706587412:0;r
-: 1706587672:0;source .zshrc
+: 1706588808:0;fy
+: 1706588843:0;cp flameshot
+: 1706588848:0;cp flameshot/
+: 1706589298:0;cd .config/zsh/
+: 1706589304:0;gs
+: 1706589313:0;..
+: 1706589320:0;br
+: 1706589670:0;d 
+: 1706589733:0;cd .config
+: 1706589737:0;cd zsh
+: 1706589743:0;cd www
+: 1706589745:0;cd DEMOS
+: 1706589750:0;cd rigobuiltgarage.com3
+: 1706589795:0;dirs -v
+: 1706589798:0;d
+: 1706589821:0;source ~/.zshenv ~/.config/zsh/.zshrc 
+: 1706589829:0;~/
+: 1706589832:0;cd ~/
+: 1706589835:0;source .zshenv
+: 1706589842:0;cd .config/zsh
+: 1706589846:0;source .zshrc
+: 1706589856:0;d
+: 1706589861:0;d 
+: 1706589869:0;cd .config
+: 1706589870:0;d
+: 1706589873:0;cd zsh
+: 1706589877:0;cd scripts
+: 1706589880:0;..
+: 1706589883:0;cd www
+: 1706589892:0;cd DEMOS
+: 1706589895:0;cd rigobuiltgarage.com3
+: 1706589902:0;d
+: 1706589907:0;3
+: 1706590030:0;source ~/.zshenv ~/.config/zsh/.zshrc 
+: 1706590052:0;source ~/.zshenv ~/.config/zsh/zshrc 
+: 1706590069:0;source ~/.zshenv && source ~/.config/zsh/.zshrc 
