@@ -1,5 +1,12 @@
 # The following lines were added by compinstall
 
+
+autoload -U compinit; compinit
+_comp_options+=(globdots) # With hidden files
+# If you type <command> and hit the tab key, you’ll see that Zsh will complete the command.
+# If you type <command - > and hit the tab key, Zsh will display the possible arguments for the command.
+source "$ZDOTDIR/scripts/completion.zsh"
+
 # https://www.soberkoder.com/better-zsh-history/
 # 1. Immediate append Setting the inc_append_history option ensures that commands are added to the 
 # history immediately (otherwise, this would happen only when the shell exits, and you could lose 
