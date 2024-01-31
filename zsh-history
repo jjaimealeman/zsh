@@ -29,7 +29,6 @@
 : 1705952044:0;git config --global user.email "jjaimealeman@gmail.com"
 : 1705952055:0;git config --global user.name "Jaime Aleman"
 : 1705952069:0;lazigit
-: 1705952802:0;neofetch
 : 1705952839:0;sudo pacman -S fastfetch
 : 1705954453:0;which $TERM
 : 1705954632:0;nvim foot.ini
@@ -86,7 +85,6 @@
 : 1705981869:0;echo $
 : 1705981873:0;echo $SHELL
 : 1705982251:0;ld
-: 1705982263:0;fv
 : 1705982284:0;fz
 : 1705982336:0;git status
 : 1705982359:0;git status -sb
@@ -137,7 +135,6 @@
 : 1706064946:0;swaymsg -t get_version
 : 1706065676:0;xeyes
 : 1706065804:0;echo $TERM
-: 1706100955:0;fastfetch
 : 1706109841:0;sudo pacman -Ss visual-studio-code-bin
 : 1706113941:0;python --version
 : 1706113960:0;sudo pacman -Ss python-pip
@@ -221,7 +218,6 @@
 : 1706199245:0;touch src/pages/api/auth/callback.ts
 : 1706199687:0;src/pages/api/auth
 : 1706199702:0;mv sighout.ts signout.ts
-: 1706199704:0;...
 : 1706201677:0;pnpm add -D @tailwindcss/forms
 : 1706201688:0;gd package.json
 : 1706208879:0;git clone https://github.com/notshekhar/Dank-Mono-Font
@@ -256,7 +252,6 @@
 : 1706224581:0;ping -c 10 google.com
 : 1706225640:0;git clone https://github.com/kevinzunigacuellar/astro-supabase repo
 : 1706226047:0;.repo
-: 1706226051:0;v
 : 1706227280:0;cp ~/www/DEMOS/theVapory/.repo/public/hero.png ~/www/DEMOS/theVapory/public/hero.png
 : 1706227294:0;exit
 : 1706227582:0;pnpm install
@@ -306,7 +301,6 @@
 : 1706341667:0;yay -Ss firefox-developer-edition
 : 1706341840:0;yay -Ss firefox-developer-edition | grep -E 'firefox-developer-edition$|English'\
 
-: 1706342110:0;vr
 : 1706381146:0;reboot
 : 1706381324:0;sudo mount /dev/sdb1 /mnt/usb 
 : 1706381363:0;sudo mount /mnt/usb /dev/sdb1
@@ -314,7 +308,6 @@
 : 1706381573:0;mkdir /mnt/usb/Obsidian
 : 1706381679:0;whoami
 : 1706381692:0;chown -R jaimito:jaimito .
-: 1706381795:0;pwd
 : 1706381821:0;sudo chown jaimito:jaimito readme.md
 : 1706382309:0;lsblk
 : 1706382384:0;lsblk -l
@@ -346,42 +339,56 @@
 : 1706587153:0;touch .gitignore
 : 1706587186:0;echo ".zsh-history" > .gitignore
 : 1706587195:0;lg
-: 1706587290:0;ll
 : 1706587316:0;pacseek
-: 1706587412:0;r
 : 1706588808:0;fy
 : 1706588843:0;cp flameshot
 : 1706588848:0;cp flameshot/
 : 1706589298:0;cd .config/zsh/
-: 1706589304:0;gs
-: 1706589313:0;..
-: 1706589320:0;br
-: 1706589670:0;d 
-: 1706589733:0;cd .config
-: 1706589737:0;cd zsh
-: 1706589743:0;cd www
-: 1706589745:0;cd DEMOS
-: 1706589750:0;cd rigobuiltgarage.com3
 : 1706589795:0;dirs -v
-: 1706589798:0;d
-: 1706589821:0;source ~/.zshenv ~/.config/zsh/.zshrc 
-: 1706589829:0;~/
-: 1706589832:0;cd ~/
 : 1706589835:0;source .zshenv
-: 1706589842:0;cd .config/zsh
 : 1706589846:0;source .zshrc
-: 1706589856:0;d
 : 1706589861:0;d 
 : 1706589869:0;cd .config
-: 1706589870:0;d
 : 1706589873:0;cd zsh
 : 1706589877:0;cd scripts
-: 1706589880:0;..
-: 1706589883:0;cd www
 : 1706589892:0;cd DEMOS
-: 1706589895:0;cd rigobuiltgarage.com3
-: 1706589902:0;d
 : 1706589907:0;3
 : 1706590030:0;source ~/.zshenv ~/.config/zsh/.zshrc 
 : 1706590052:0;source ~/.zshenv ~/.config/zsh/zshrc 
-: 1706590069:0;source ~/.zshenv && source ~/.config/zsh/.zshrc 
+: 1706634362:0;ping -c 10 archlinux.org/
+: 1706634369:0;ping -c 10 archlinux.org
+: 1706634392:0;d
+: 1706634396:0;1
+: 1706634474:0;fv
+: 1706634922:0;cd .config/nvim
+: 1706635012:0;cd www/
+: 1706635109:0;cd www
+: 1706635248:0;cd rigobuiltgarage.com3
+: 1706635249:0;l
+: 1706635743:0;source ~/.zshenv && source ~/.config/zsh/.zshrc 
+: 1706635756:0;....
+: 1706635765:0;pwd
+: 1706635767:0;~/
+: 1706635770:0;cd ~/
+: 1706635786:0;...
+: 1706635792:0;dcd rigo&3
+: 1706635827:0;dcd
+: 1706635833:0;dcd netlify
+: 1706635876:0;dcd rigo
+: 1706636257:0;..
+: 1706636257:0;vr
+: 1706636263:0;br
+: 1706639335:0;cd archVault
+: 1706639364:0;cd MyVaultOld
+: 1706639371:0;ll
+: 1706639392:0;v
+: 1706639696:0;cd obsi
+: 1706639699:0;cd Obsidian
+: 1706639700:0;r
+: 1706668642:0;neo
+: 1706668645:0;neofetch
+: 1706668650:0;fastfetch
+: 1706668675:0;htop
+: 1706675921:0;cd .config/zsh
+: 1706675942:0;git rm --cached zsh-history
+: 1706675945:0;gs
