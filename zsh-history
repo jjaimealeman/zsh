@@ -77,7 +77,6 @@
 : 1706681235:0;.config/ranger/colorschemes
 : 1706681235:0;git clone https://github.com/dracula/ranger .
 : 1706681235:0;git clone https://github.com/dracula/ranger dracula
-: 1706681235:0;.config/kitty
 : 1706681235:0;v kitty.conf
 : 1706681235:0;sway/
 : 1706681235:0;v config
@@ -242,7 +241,6 @@
 : 1706681235:0;ll Dank*
 : 1706681235:0;Downloads/fonts
 : 1706681235:0;DankMono
-: 1706681235:0;Downloads
 : 1706681235:0;Dank-Mono-Font
 : 1706681235:0;~/Downloads/fonts
 : 1706681235:0;bat README.md
@@ -251,7 +249,6 @@
 : 1706681235:0;git clone https://github.com/kevinzunigacuellar/astro-supabase repo
 : 1706681235:0;.repo
 : 1706681235:0;cp ~/www/DEMOS/theVapory/.repo/public/hero.png ~/www/DEMOS/theVapory/public/hero.png
-: 1706681235:0;exit
 : 1706681235:0;pnpm install
 : 1706681235:0;rm -rf node_modules public src astro.config.mjs data.js package.json pnpm-lock.yaml README.md supabase.js tailwind.config.mjs tsconfig.json
 : 1706681235:0;cp .repo/* . 
@@ -261,7 +258,6 @@
 : 1706681235:0;pnpm format
 : 1706681235:0;export OPENAI_API_KEY=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
 : 1706681235:0;aider
-: 1706681235:0;pnpm dev
 : 1706681235:0;cd '/home/jaimito/Downloads/Dank-Mono-Font'
 : 1706681235:0;sudo mkfs.exfat -n USB /dev/sdb 
 : 1706681235:0;/run/media
@@ -285,7 +281,6 @@
 : 1706681235:0;ll neofetch
 : 1706681235:0;bat neofetch/config.conf
 : 1706681235:0;ll ranger
-: 1706681235:0;fc-list | grep "IBM"
 : 1706681235:0;fc-list | grep "awesome"
 : 1706681235:0;fc-list | grep "Awesome"
 : 1706681235:0;rsyn -avh ~/Downloads/ ./Downloads/
@@ -350,7 +345,6 @@
 : 1706681235:0;source ~/.zshenv ~/.config/zsh/.zshrc 
 : 1706681235:0;source ~/.zshenv ~/.config/zsh/zshrc 
 : 1706681235:0;ping -c 10 archlinux.org/
-: 1706681235:0;ping -c 10 archlinux.org
 : 1706681235:0;d
 : 1706681235:0;1
 : 1706681235:0;cd .config/nvim
@@ -368,8 +362,6 @@
 : 1706681235:0;br
 : 1706681235:0;cd archVault
 : 1706681235:0;cd MyVaultOld
-: 1706681235:0;ll
-: 1706681235:0;v
 : 1706681235:0;cd obsi
 : 1706681235:0;cd Obsidian
 : 1706681235:0;neo
@@ -384,9 +376,7 @@
 : 1706677865:0;ll Obs*
 : 1706677875:0;cd Obsidian/archVault
 : 1706677877:0;z -l
-: 1706680749:0;pwd
 : 1706680751:0;...
-: 1706680754:0;..
 : 1706680759:0;.config
 : 1706680762:0;v starship.toml
 : 1706680975:0;gs
@@ -399,21 +389,65 @@
 : 1706681674:0;z down
 : 1706681679:0;z gith
 : 1706681794:0;neofetch
-: 1706681929:0;fastfetch
 : 1706684366:0;tree
 : 1706684372:0;sudo pacman -S tree
 : 1706684379:0;vr
-: 1706684597:0;r
 : 1706684881:0;.config/zsh/.zshrc 
 : 1706684885:0;fv
-: 1706685469:0;source ~/.zshenv && source ~/.config/zsh/.zshrc 
 : 1706685487:0;gl2
-: 1706685509:0;z rigo
 : 1706685511:0;gl
-: 1706708530:0;ll
-: 1706708540:0;v
-: 1706708549:0;..
-: 1706708550:0;ll
-: 1706708553:0;v
-: 1706708598:0;r
 : 1706716628:0;ping -c 10 archlinux.org
+: 1706716964:0;z zsh
+: 1706716984:0;.config/zsh
+: 1706716992:0;pwd
+: 1706717080:0;bat zsh-history
+: 1706717237:0;mv zsh-history zsh-history-bak
+: 1706717245:0;bat .z
+: 1706763403:0;z arch vault
+: 1706795069:0;pnpm dev
+: 1706795128:0;z rigo
+: 1706795144:0;z kitty
+: 1706795266:0;..
+: 1706795270:0;.config/kitty
+: 1706795271:0;v
+: 1706795325:0;source ~/.zshenv && source ~/.config/zsh/.zshrc 
+: 1706795345:0;fc-list | grep "IBM"
+: 1706795508:0;ad asd
+: 1706795509:0;ass
+: 1706795754:0;this is a new kitty
+: 1706795758:0;fastfetch
+: 1706799974:0;fastfetch && neofetch
+: 1706800006:0;Downloads
+: 1706800007:0;ll
+: 1706800010:0;r
+: 1706800096:0;exit
+: 1706800333:0;for file in *.png; do cwebp -q 80 "$file" -o "${file%.png}.webp"; done
+: 1706800362:0;for file in *.jpg; do convert "$file" "${file%.jpg}.png"; done
+: 1706800371:0;ll
+: 1706800574:0;for file in *.jpg; do cwebp "$file" -o "${file%.jpg}.webp"; done
+: 1706800585:0;r
+: 1706800631:0;cwebp --version
+: 1706800651:0;man cwebp
+: 1706801018:0;source ~/.zshenv && source ~/.config/zsh/.zshrc 
+: 1706801021:0;ll
+: 1706801031:0;rm unsplash.webp
+: 1706801045:0;convert_jpg_to_webp
+: 1706801055:0;ll
+: 1706801061:0;rm unsplash.webp
+: 1706801109:0;convert_jpg_to_webp
+: 1706801126:0;convert_jpg_to_webp unsplash.jpg
+: 1706801210:0;r
+: 1706801224:0;ll
+: 1706801248:0;mv iuliu-illes-Hi1yiPr0aWw-unsplash.jpg unsplash-mountain.jpg
+: 1706801250:0;r
+: 1706801302:0;ll
+: 1706801315:0;r
+: 1706801341:0;mv unsplash.jpg unsplash-nightsky.jpg
+: 1706801343:0;ll
+: 1706801404:0;source ~/.zshenv && source ~/.config/zsh/.zshrc 
+: 1706801413:0;convert_jpg_to_webp
+: 1706801431:0;convert_jpg_to_webp 
+: 1706801443:0;convert_jpg_to_webp unsplash-mountain.jpg
+: 1706801456:0;convert_jpg_to_webp
+: 1706801579:0;source ~/.zshenv && source ~/.config/zsh/.zshrc 
+: 1706801585:0;convert_jpg_to_webp
