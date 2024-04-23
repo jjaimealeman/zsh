@@ -1,9 +1,9 @@
 
 alias r='ranger'
+alias neo='neo-matrix'
 
 alias ga='git add -A && git commit'
 alias gd='git diff'
-#alias gd='git diff --color | diff-so-fancy'
 alias gl="git log --oneline --abbrev-commit --all --graph --decorate --color --pretty=format:'%C(yellow)%h%Creset -%C(red)%d%Creset %s %C(dim green)(%cr)'"
 alias gs='git status -sb'
 alias lg='lazygit'
@@ -28,6 +28,10 @@ alias ....='cd ../../..'
 alias .....='cd ../../../..'
 alias ......='cd ../../../../..'
 
+# Search AUR with fzf
+# function to install packages
 alias fy='fzfyay'
-alias fv='vim $(fz)'
+
+# Search files with fzf and open with nvim
+alias fv='nvim $(fz)'
 alias fz='rg --files --hidden --follow --ignore-vcs -g "!{node_modules,.git}" | fzf'
