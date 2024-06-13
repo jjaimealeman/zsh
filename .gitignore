@@ -1,3 +1,4 @@
 .zcompdump
 plugins/
 zsh-history
+.zsh-history
