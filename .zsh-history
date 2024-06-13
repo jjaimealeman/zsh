@@ -757,7 +757,7 @@
 : 1706233217:0;pnpm format
 : 1706233226:0;gs
 : 1706233282:0;aider
-: 1706233497:0;export OPENAI_API_KEY=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
+: 1706233497:0;export OPENAI_API_KEY=
 : 1706233499:0;aider
 : 1706235279:0;pnpm dev
 : 1706337957:0;cd '/home/jaimito/Downloads/Dank-Mono-Font'
