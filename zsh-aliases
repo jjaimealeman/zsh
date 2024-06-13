@@ -1,11 +1,13 @@
 
 alias r='ranger'
 alias neo='neo-matrix'
+alias top='bpytop'
 
 alias ga='git add -A && git commit'
 alias gd='git diff'
 alias gl="git log --oneline --abbrev-commit --all --graph --decorate --color --pretty=format:'%C(yellow)%h%Creset -%C(red)%d%Creset %s %C(dim green)(%cr)'"
 alias gs='git status -sb'
+alias gf='bash ~/.config/zsh/scripts/fsg.sh'
 alias lg='lazygit'
 
 alias v='nvim'
@@ -13,6 +15,8 @@ alias vi='nvim'
 alias vim='nvim'
 alias vr='v ~/readme.md'
 alias vz='v ~/.zshrc'
+# alias vclean='rm -rf ~/.local{state,share}/nvim'
+## rm -rf ~/.local/{state,share}/nvim && nvim)
 
 alias ld='exa -lDa --icons --sort name --git'
 alias ll='exa -la -F --icons --git --group-directories-first --git'
@@ -32,6 +36,11 @@ alias ......='cd ../../../../..'
 # function to install packages
 alias fy='fzfyay'
 
-# Search files with fzf and open with nvim
+# sEARCH FILES WITH FZF AND OPEN WITH NVIM
+# This uses `rg` and `fzf`.
 alias fv='nvim $(fz)'
-alias fz='rg --files --hidden --follow --ignore-vcs -g "!{node_modules,.git}" | fzf'
+# alias fz='rg --files --hidden --follow --ignore-vcs -g "!{node_modules,.git}" | fzf'
+# This uses `fd` and `fzf`.
+# alias fvv='nvim $(fzz)'
+alias fz="fd --hidden --strip-cwd-prefix --exclude 'node_modules, .git' | fzf"
+
