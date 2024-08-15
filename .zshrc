@@ -25,7 +25,7 @@ zsh_add_plugin "zsh-users/zsh-completions"
 zsh_add_plugin "zsh-users/zsh-syntax-highlighting"
 zsh_add_plugin "agkozak/zsh-z"
 
-source /home/jjaime/.config/broot/launcher/bash/br
+# source /home/jjaime/.config/broot/launcher/bash/br
 eval "$(starship init zsh)"
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
