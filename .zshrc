@@ -44,3 +44,6 @@ esac
 export PATH="$PATH:/home/jjaime/.local/bin"
 
 source ~/fzf-git.sh/fzf-git.sh 
+
+# Set up fzf key bindings and fuzzy completion
+source <(fzf --zsh)
