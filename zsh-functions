@@ -70,6 +70,32 @@ function nvims() {
 }
 # bindkey -s ^a "nvims\n"
 
+# SYNTAX:
+# svgo_optimize file.svg
+svgo_optimize() {
+  # Check if the input file is provided
+  if [ -z "$1" ]; then
+    echo "Usage: svgo_optimize <file.svg>"
+    return 1
+  fi
+
+  # Get the input file name
+  local input_file="$1"
+
+  # Check if the file exists
+  if [ ! -f "$input_file" ]; then
+    echo "File not found: $input_file"
+    return 1
+  fi
+
+  # Create the output file name by appending .min.svg
+  local output_file="${input_file%.svg}.min.svg"
+
+  # Run svgo
+  svgo "$input_file" -o "$output_file"
+
+  echo "Optimized SVG saved as: $output_file"
+}
 
 
 
